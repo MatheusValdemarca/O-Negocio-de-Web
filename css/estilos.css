@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
+
+:root{
+    --cor-fundo: #23272a;
+    --cor-titulo: #8b9dc3;
+    --cor-paragrafo: #ffffff;
+    --cor-link: #99aab5;
+    --fonte: 'Press Start 2P';
+    --fonte-h1: Koulen;
+    --fonte-p: Oswald;
+    --fonte-ul: Libre Baskerville;
+}
+
+
+
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte);
+    width: 600px;
+    max-width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: var(--cor-titulo);
+    font-family: var(--fonte-h1);
+}
+
+p {
+    color: var(--cor-paragrafo);
+    font-family: var(--fonte);
+    font-family: var(--fonte-p);
+}
+
+img {
+    width: 200px;
+    border-radius: 25%;
+    border-width: 6px;
+    border-color: gray;
+    border-style: double;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+ul li a {
+    color: var(--cor-link);
+    font-size: 25px;
+    font-family: var(--fonte-ul);
+}
+
+div.image {
+    text-align: center;
+}
